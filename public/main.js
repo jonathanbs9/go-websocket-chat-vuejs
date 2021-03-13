@@ -1,6 +1,4 @@
-//const socket = io;
-// Chat message =  evento
-// Chat room = sala
+const socket = io();
 
 new Vue({
     el: '#chat-app',
@@ -16,7 +14,7 @@ new Vue({
     data: {
         message : '',
         messages : [{
-            text: 'Hello this is a message!',
+            text: 'Hello this is a message!!!!!!!',
             date: new Date()
         }]
     },
